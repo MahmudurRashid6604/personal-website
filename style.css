@@ -6,8 +6,6 @@ body{
 .half-width{
   width: 40%;
   float: left;
-  margin-left: 5%;
-  padding-left: 3%;
   padding-top: 2%;
   
 }
@@ -15,9 +13,11 @@ body{
 .half-width img{
   width: 100%;
   
+  
 }
 
 #padding-top{
+  padding-left: 15%;
   padding-top: 8%;
 }
 
@@ -43,7 +43,7 @@ body{
 }
 
 section{
-  height: 700px;
+  height: 720px;
 }
 
 .biography-area{
@@ -51,11 +51,48 @@ section{
   background-size: 100%;
 }
 
+#biography-image{
+  padding-left: 5%;
+}
+
 .latest-work{
   text-align: center;
+  padding-left: 8%;
+  background-image: url(images/latest-work-bg.png);
+  background-size: 100%;
+  
 }
 .latest-work img{
   width: 30%;
   float: left;
+}
 
+h2{
+  margin: 80px;
+  font-size: 35px;
+}
+
+.client-and-contact{
+  text-align: center;
+  background-image: url(images/footer-bg.png);
+  background-size: 100%;
+}
+
+.small-text{
+  font-size: 12px;
+}
+
+.gmail{
+  font-size: 25px;
+}
+.contact{
+  background-color:rgb(224, 17, 95);
+  color: white;
+  border-radius: 10px;
+  margin: 0% 25%;
+  padding: 30px 0px;
+}
+
+footer{
+  text-align: center;
 }
